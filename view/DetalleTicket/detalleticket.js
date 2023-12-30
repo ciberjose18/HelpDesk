@@ -104,6 +104,7 @@ $(document).ready(function(){
             }
         }
     }).DataTable();
+    console.log(tabla);
 
 });
 

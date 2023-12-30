@@ -18,8 +18,8 @@ class Email extends PHPMailer{
     protected $gContrasena = 'aqui tu pass'; */
     //TODO: variable que contiene la contraseña del destinatario
 
-    protected $gCorreo = 'correopruebas048@gmail.com';
-    protected $gContrasena = 'Correopruebas1218@1';
+    protected $gCorreo = 'josetriana2018@outlook.es';
+    protected $gContrasena = 'joseelkoko1562';
 
     /* TODO:Alertar al momento de generar un ticket */
     public function ticket_abierto($tick_id){
@@ -35,7 +35,7 @@ class Email extends PHPMailer{
 
         //TODO: IGual//
         $this->IsSMTP();
-        $this->Host = 'smtp.gmail.com';//Aqui el server
+        $this->Host = 'smtp.office365.com';//Aqui el server
         $this->Port = 587;//Aqui el puerto
         $this->SMTPAuth = true;
         $this->SMTPSecure = 'tls';
@@ -84,7 +84,7 @@ class Email extends PHPMailer{
 
         //IGual//
         $this->IsSMTP();
-        $this->Host = 'smtp.gmail.com';//Aqui el server
+        $this->Host = 'smtp.office365.com';//Aqui el server
         $this->Port = 587;//Aqui el puerto
         $this->SMTPAuth = true;
         $this->Username = $this->gCorreo;
@@ -141,7 +141,7 @@ class Email extends PHPMailer{
 
         //IGual//
         $this->IsSMTP();
-        $this->Host = 'smtp.hostinger.com';//Aqui el server
+        $this->Host = 'smtp.office365.com';//Aqui el server
         $this->Port = 587;//Aqui el puerto
         $this->SMTPAuth = true;
         $this->Username = $this->gCorreo;
@@ -191,7 +191,7 @@ class Email extends PHPMailer{
 
         //IGual//
         $this->IsSMTP();
-        $this->Host = 'smtp.gmail.com';//Aqui el server
+        $this->Host = 'smtp.office365.com';//Aqui el server
         $this->Port = 587;//Aqui el puerto
         $this->SMTPAuth = true;
         $this->Username = $this->gCorreo;
@@ -247,7 +247,7 @@ class Email extends PHPMailer{
 
         //TODO: IGual//
         $this->IsSMTP();
-        $this->Host = 'smtp.gmail.com';//Aqui el server
+        $this->Host = 'smtp.office365.com';//Aqui el server
         $this->Port = 587;//Aqui el puerto
         $this->SMTPAuth = true;
         $this->SMTPSecure = 'tls';
